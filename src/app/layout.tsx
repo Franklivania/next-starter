@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "./globals.css";
+import { Inika, Inter } from "next/font/google";
+import "./globals.scss";
 import Layout from "@/layout";
 
 const inter = Inter({ subsets: ["latin"] });
+const inika = Inika({ subsets: ["latin"], weight:["400"]})
 
 export const metadata: Metadata = {
   title: "Create Next App",
